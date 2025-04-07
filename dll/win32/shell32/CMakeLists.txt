@@ -44,7 +44,7 @@ list(APPEND SOURCE
     propsheet.cpp
     shell32.cpp
     utils.cpp
-    CShellItem.cpp
+    #CShellItem.cpp
     CShellLink.cpp
     CFolderOptions.cpp
     folders/CDesktopFolder.cpp
@@ -95,6 +95,7 @@ list(APPEND PCH_SKIP_SOURCE
     wine/control.c
     wine/pidl.c
     wine/shell32_main.c
+    wine/shellitem.c
     wine/shellole.c
     wine/shellord.c
     wine/shellpath.c

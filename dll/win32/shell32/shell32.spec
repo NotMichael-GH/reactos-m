@@ -469,7 +469,7 @@
 755 stdcall -noname PathIsEqualOrSubFolder(wstr wstr)
 756 stub -noname DeleteFileThumbnail
 757 stdcall -version=0x600+ DisplayNameOfW(ptr ptr long ptr long)
-757 stdcall -stub -version=0x600+ SHGetStockIconInfo(long long ptr)
+758 stdcall -stub -version=0x600+ SHGetStockIconInfo(long long ptr)
 760 stub -noname -version=0x600+ SHConfirmOperation
 781 stub -noname -version=0x600+ SHApplyPropertiesToItem
 787 stub -version=0x600+ SHMapIDListToSystemImageListIndexAsync
@@ -551,7 +551,6 @@
 @ stdcall -version=0x600+ SHGetFolderPathEx(ptr long ptr wstr long)
 @ stdcall -version=0x600+ SHGetItemFromDataObject(ptr long ptr ptr)
 @ stdcall -version=0x600+ SHGetItemFromObject(ptr ptr ptr)
-@ stdcall -version=0x600+ SHGetIDListFromObject(ptr ptr)
 @ stdcall -version=0x600+ SHGetKnownFolderIDList(ptr long ptr ptr)
 @ stdcall -version=0x601+ SHGetKnownFolderItem(ptr ptr ptr ptr ptr)
 @ stdcall -version=0x600+ SHGetKnownFolderPath(ptr long ptr ptr)
